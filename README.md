@@ -1,2 +1,2 @@
-# recycling
+# Recycling
 AMLI Capstone
