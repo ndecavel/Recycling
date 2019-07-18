@@ -1,8 +1,8 @@
 import cv2 as cv
 import os
 
-#don't forget to change ghe path
-path = "/content/drive/My Drive/AMLI Final Project/AMLI-trashnet/Glass/"
+#don't forget to change the path
+path = "/content/drive/My Drive/AMLI Final Project/AMLI-trashnet/Glass/"  #HERE!!!!!!!!!
 files = os.listdir(path+"Video")
 
 save_path = path+"V_Photos/"
