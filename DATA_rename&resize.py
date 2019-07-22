@@ -39,5 +39,7 @@ def resize(waste):
 # subsets = ['train','valid', 'test']
 
 for waste in waste_types:
-    rename(waste)
     resize(waste)
+
+for waste in waste_types:
+    rename(waste)
