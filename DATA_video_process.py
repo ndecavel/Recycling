@@ -5,8 +5,8 @@ import os
 path = os.path.join('AMLI-trashnet','Paper')#HERE!!!!!!!!!
 files = os.listdir(path+"Video")
 
-save_path = path+"V_Photos/"
-#os.mkdir(save_path)
+save_path = path+"V_Photos/" 
+#os.mkdir(save_path) #Uncomment if material folder does not already have V_Photos
 
 
 
@@ -28,10 +28,10 @@ for name in files:
         success, image = video.read()
         if frameId % x == 0:
             cv.imwrite(save_path+name+"frame%d.jpg" % frameId, image) 
-              #add file name here so images won't be replaced
+              #added file name here so images won't be replaced
 
-  video.release()
-  print("100%")
+    video.release()
+    print("100%")
 
 print("Complete")
 
