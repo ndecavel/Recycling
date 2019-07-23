@@ -7,7 +7,7 @@ waste_types = ['Cardboard','Glass','Metal','Paper','Plastic','Trash', 'E-Waste']
 # waste_types = os.listdir(dataset_path)
 # subsets = ['train','valid', 'test']
 
-
+os.mkdir(resize_path)
 
 ############ Rename function ############
 def rename(waste): 
@@ -20,12 +20,12 @@ def rename(waste):
         os.rename(src, dst) 
         i += 1
 
-############ Resizefunction ############
+############ Resize function ############
 def resize(waste):
   #create categories folder in resize dataset
     file_path = os.path.join(dataset_path, waste, "Photo") 
     save_path = os.path.join(resize_path, waste) 
-    os.makedirs(save_path)
+    os.mkdir(save_path)
   
     for filename in os.listdir(file_path):
         img = cv.imread(os.path.join(file_path,filename))
@@ -39,5 +39,7 @@ def resize(waste):
 # subsets = ['train','valid', 'test']
 
 for waste in waste_types:
-    rename(waste)
     resize(waste)
+
+for waste in waste_types:
+    rename(waste)
