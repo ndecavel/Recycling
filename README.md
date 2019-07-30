@@ -1,6 +1,3 @@
-# Recycling
-AMLI Capstone
-
 # Final Project (AMLI: Recycling)
 Last Update: 2019/07/30  <br />
 First Proposed: 2019/06/28 <br />
