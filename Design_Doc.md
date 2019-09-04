@@ -1,9 +1,9 @@
 # Final Project
-Last Update: 2019/07/01  <br />
+Last Update: 2019/09/03  <br />
 First Proposed: 2019/06/28 <br />
 Author(s): Aisha, Nara, Nic, Qianti <br />
 Reviewer(s): <br />
-Status: [Draft] <br />
+Status: [Final] <br />
 
 ## Objective
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We want to use Machine Learning techniques, specifically Classification, to raise awareness in regards to what can and what should not be recycled. The final product will be in the form of an app that a consumer can use to identify individual items according to their county’s regulations. <br />
@@ -54,6 +54,17 @@ After the sub classification, if the label is correct, the object will be catego
 
 
 ## Schedule/Sequence Diagram/Interface Design
+#### Schedule
+![Schedule](Images/Schedule.png)
+
+#### Sequence Diagram
+![Sequence Diagram](Images/Sequence%20Diagram.png)
+
+#### App Interface
+![App_1](Images/App%201.png)
+![App_2](Images/App%202.png)
+![App_3](Images/App%203.png)
+![App_4](Images/App%204.png)
 
 ## Fairness Considerations
 
